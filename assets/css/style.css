@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: "Matangi", sans-serif;
     font-optical-sizing: auto;
 }
 
@@ -21,14 +20,16 @@
         left: 50%;
         transform: translateX(-50%);
         display: flex;
-        gap: 1rem;
+        gap: 1.5rem;
         flex-wrap: wrap;
-
-        .btn {
-            font-weight: 4rem;
-            color: white;
-        }
     }
+}
+
+.btn {
+    font-weight: 100;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .left_header {
@@ -39,12 +40,11 @@
     gap: 0.3rem;
 
     .company_logo {
-        max-width: 2.5rem;
+        max-width: 2rem;
     }
     .company_name {
-        font-family: "Modak", system-ui;
-        font-size: 2rem;
-        font-weight: 100;
+        font-family: "Akaya Kanadaka", system-ui;
+        font-size: 1.5rem;
         color: rgb(255, 255, 255);
     }
 }
