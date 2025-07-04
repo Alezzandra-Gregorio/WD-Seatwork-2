@@ -14,9 +14,6 @@
     padding: 1rem;
     background-color: #749bc2;
     opacity: 0.80;
-    box-shadow: 2px -10px 61px 21px rgba(116,155,194,1);
-    -webkit-box-shadow: 2px -10px 61px 21px rgba(116,155,194,1);
-    -moz-box-shadow: 2px -10px 61px 21px rgba(116,155,194,1);
 
     .left_header {
         position: absolute;
@@ -25,9 +22,13 @@
         align-items: center;
         gap: 0.3rem;
 
+        .company_logo {
+            max-width: 2.5rem;
+        }
+
         .company_name {
             font-family: "Modak", system-ui;
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-weight: 100;
             color: rgb(255, 255, 255);
         }
@@ -42,6 +43,9 @@
         gap: 1rem;
         flex-wrap: wrap;
 
-        .btn {}
+        .btn {
+            font-weight: 4rem;
+            color: white;
+        }
     }
 }
