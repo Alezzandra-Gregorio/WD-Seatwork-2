@@ -15,25 +15,6 @@
     background-color: #749bc2;
     opacity: 0.80;
 
-    .left_header {
-        position: absolute;
-        left: 1rem;
-        display: flex;
-        align-items: center;
-        gap: 0.3rem;
-
-        .company_logo {
-            max-width: 2.5rem;
-        }
-
-        .company_name {
-            font-family: "Modak", system-ui;
-            font-size: 2rem;
-            font-weight: 100;
-            color: rgb(255, 255, 255);
-        }
-    }
-
     .middle {
         font-size: .9rem;
         position: relative;
@@ -47,5 +28,23 @@
             font-weight: 4rem;
             color: white;
         }
+    }
+}
+
+.left_header {
+    position: absolute;
+    left: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+
+    .company_logo {
+        max-width: 2.5rem;
+    }
+    .company_name {
+        font-family: "Modak", system-ui;
+        font-size: 2rem;
+        font-weight: 100;
+        color: rgb(255, 255, 255);
     }
 }
