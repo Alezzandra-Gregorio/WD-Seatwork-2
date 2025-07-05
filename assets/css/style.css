@@ -17,6 +17,8 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.500);
+    z-index: 1000;
+    position: fixed;
 }
 
 .header .middle {
@@ -57,9 +59,10 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    padding-top: 4rem;
 }
 
-.section .background {
+.section .background img{
     position: absolute;
     top: 0;
     left: 0;
@@ -68,6 +71,7 @@ body {
     background-size: 100%;
     z-index: -1;
     object-fit: cover;
+    pointer-events: none;
 }
 
 .content {
