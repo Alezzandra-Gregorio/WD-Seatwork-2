@@ -65,3 +65,19 @@ body {
     border-radius: 15px;
 }
 
+.section {
+    height: 100dvh;
+    width: auto;
+    background-image: linear-gradient(to bottom right, #4682A9, #91C8E4);
+}
+
+.image {
+    position: absolute;
+    top: 5%;
+    right: 30%;
+    width: 28%;
+    transform: rotate(10deg);
+    z-index: 1;
+}
+
+
