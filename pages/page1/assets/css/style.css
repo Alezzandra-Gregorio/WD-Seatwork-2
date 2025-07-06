@@ -48,6 +48,13 @@ body {
     background-color: #ffffff45;
 }
 
+.btn:hover {
+    transform:scale(0.95);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    background-color: #93939369;
+}
+
 .middle>* {
     padding: .4rem;
     border-radius: 15px;
@@ -146,7 +153,6 @@ body {
 
 .content_icon {
     color: white;
-    border: white 1px solid;
     border-radius: 50px;
     padding: .4rem;
 }
