@@ -102,6 +102,14 @@ body {
     gap: .5rem;
 }
 
+.left {
+    animation: slideDown 1s ease-out forwards;
+}
+
+.right {
+    animation: slideUp 1s ease-out forwards;
+}
+
 .upper {
     display: flex;
     justify-content: center;
@@ -170,4 +178,26 @@ h1 {
 .italic {
     font-style: italic;
     font-weight: 100;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(10%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-10%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
