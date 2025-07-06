@@ -44,7 +44,6 @@ body {
     font-family: "Roboto", sans-serif;
 
     border: 1px rgb(255, 255, 255) solid;
-    background-color: #ffffff45;
 }
 
 .btn:hover {
@@ -52,6 +51,10 @@ body {
     transition: transform 0.2s ease-in-out;
     cursor: pointer;
     background-color: #93939369;
+}
+
+.btn.active {
+    background-color: #ffffff45;
 }
 
 .middle>* {
