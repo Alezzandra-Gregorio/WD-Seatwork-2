@@ -74,8 +74,8 @@ body {
 
 .back_text {
     position: absolute;
-    top: 40%;
-    left: 50%;
+    top: 12%;
+    left: 27%;
     transform: translate(-50%, -50%);
     font-size: 9rem;
     font-weight: 900;
@@ -83,6 +83,8 @@ body {
     z-index: 1;
     text-align: center;
     pointer-events: none;
+
+    animation: slideDown 1s ease-out forwards;
 }
 
 .image {
@@ -130,6 +132,18 @@ body {
         opacity: 1;
     }
 }
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-10%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 
 @keyframes slideLeft {
     0% {
