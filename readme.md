@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/Alezzandra-Gregorio/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/duck.png" alt="Pato" width="130" height="100">
   </a>
@@ -63,16 +63,19 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+ to create 5 hero pages
 - Whats the purpose
+ to learn how to create and design hero pages using html and css
 - What are key components
+the key components are to create a website with 5 hero sections and design them.
 - What technology used and how it is used
+ I used HTML and CSS.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- 5 Hero Sections with Designs
+- Website with 5 Hero Sections
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -119,4 +122,13 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |   
+| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+
+| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+
+|HomePage | Inspiration page for HomePage | https://ph.pinterest.com/pin/21673641951370063/ |
+| Page 2 | Inspiration page for page 2 | https://ph.pinterest.com/pin/47710077298988545/ |
+| Page 3 | Inspiration page for page 3 |
+https://ph.pinterest.com/pin/884112970636514910/ |
+|Page 5 | Inspiration page for page 5 |
+https://ph.pinterest.com/pin/884112970636558277/ |
